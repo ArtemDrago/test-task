@@ -47,6 +47,7 @@
                     let data = new Date().toLocaleDateString();
 
                     document.cookie = encodeURIComponent(data + '-cookie') + '=' + encodeURIComponent(dataForm);
+                    alert('Результат формы сохранен в cookie');
                 }
 
                 this.selectedSity = '';

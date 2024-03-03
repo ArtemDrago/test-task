@@ -55,6 +55,10 @@
                 this.selectedWorker = '';
                 this.selectedBrigade = '';
                 this.selectedShift = '';
+
+                this.Sitys = this.getSitys;
+                this.Workers = this.getWorkers;
+                this.Workshops = this.getWorkshops;
             },
             changeActiveSity(value) {
                 this.selectedSity = value;
@@ -120,7 +124,6 @@
             this.Workers = this.getWorkers;
             this.Workshops = this.getWorkshops;
         },
-
     };    
 </script>
 
